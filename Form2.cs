@@ -151,5 +151,10 @@ namespace MIN_PATH_HCMUTE
                 label3.Text = "Không có đường đi từ " + start + " đến " + end;
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
