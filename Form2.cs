@@ -134,25 +134,25 @@ namespace MIN_PATH_HCMUTE
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string start = textBox1.Text;    
-            string end = textBox2.Text;
-            string Result = " "; 
-            var result = graph.Dijkstra(start, end);
-            for(int i = 0; i < result.Count; i++)
-            {
-                Result += result[i] + " -> ";
-            }   
-            if (result != null)
-            {
-                label3.Text = "Đường đi ngắn nhất từ " + start + " đến " + end + " là: "  + Result + " với chi phí là: " ;
-            }
-            else
-            {
-                label3.Text = "Không có đường đi từ " + start + " đến " + end;
-            }
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
