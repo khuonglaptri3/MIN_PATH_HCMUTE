@@ -16,7 +16,7 @@ namespace MIN_PATH_HCMUTE
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form2());
+            Application.Run(new Group_6_Final_project());
         }
     }
 }

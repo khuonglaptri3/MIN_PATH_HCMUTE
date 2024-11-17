@@ -14,6 +14,7 @@ namespace MIN_PATH_HCMUTE
         {
             _adjacencyList = new Dictionary<string, List<(string, double)>>();
         }
+
         public void AddEdge(string u, string v, double weight)
         {
             if (!_adjacencyList.ContainsKey(u))
@@ -25,8 +26,9 @@ namespace MIN_PATH_HCMUTE
                 _adjacencyList[v] = new List<(string, double)>();
             }
             _adjacencyList[u].Add((v, weight));
-            _adjacencyList[v].Add((u, weight));
+            _adjacencyList[v].Add((u, weight)); 
         }
+
         public List<string> Dijkstra(string start, string target)
         {
             var distances = new Dictionary<string, double>();
@@ -58,6 +60,7 @@ namespace MIN_PATH_HCMUTE
                     }
                 }
             }
+
             var path = new List<string>();
             for (var at = target; at != null; at = previousNodes.ContainsKey(at) ? previousNodes[at] : null)
             {
