@@ -230,7 +230,7 @@ namespace MIN_PATH_HCMUTE
             }
             if (result != null)
             {
-                label3.Text = "Đường đi ngắn nhất từ \n " + start + " đến " + end + " là: \n " + Result;
+                label3.Text = "Đường đi ngắn nhất từ \n " + keyValuePairs[start] + " đến " + keyValuePairs[end] + " là: \n " + Result;
             }
             else
             {
