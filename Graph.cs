@@ -29,7 +29,7 @@ namespace MIN_PATH_HCMUTE
             _adjacencyList[v].Add((u, weight)); 
         }
 
-        public List<string> Dijkstra(string start, string target)
+        public (List<string> path, double distance) Dijkstra(string start, string target)
         {
             var distances = new Dictionary<string, double>();
             var previousNodes = new Dictionary<string, string>();
@@ -72,8 +72,9 @@ namespace MIN_PATH_HCMUTE
             if (path.Count == 1 && path[0] != start)
             {
                 path.Clear();
+                return (path, double.PositiveInfinity);
             }
-            return path;
+            return (path, distances[target]);
         }
     }
 }

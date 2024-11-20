@@ -73,6 +73,16 @@ namespace MIN_PATH_HCMUTE.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap MAPCHINH {
+            get {
+                object obj = ResourceManager.GetObject("MAPCHINH", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap MAPHOANCHINH {
             get {
                 object obj = ResourceManager.GetObject("MAPHOANCHINH", resourceCulture);
