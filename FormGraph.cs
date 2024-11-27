@@ -224,5 +224,10 @@ namespace MIN_PATH_HCMUTE
             }
             return false;
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

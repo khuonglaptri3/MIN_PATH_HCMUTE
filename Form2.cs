@@ -267,5 +267,14 @@ namespace MIN_PATH_HCMUTE
 
         }
 
-           }
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbDistance_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
